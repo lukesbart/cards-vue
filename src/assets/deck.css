@@ -1,0 +1,91 @@
+/* Thank you to drawsgood https://drawsgood.itch.io/8bit-deck-card-assets for the deck art */
+
+.sprite-card {
+    width: 33px;
+    height: 45px;
+    background-image: url(8BitDeck.png);
+
+    image-rendering: crisp-edges;
+    transform: scale(5);
+    display:block;
+    margin-right: 50%;
+    margin-left: 50%;
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+.beginCard {
+    background-position: -1px -142px;
+}
+
+.endCard {
+    background-position: -1px -48px;
+}
+
+.Hearts {
+    background-position-y: -1px;
+}
+
+.Clubs {
+    background-position-y: -48px;
+}
+
+.Diamonds {
+    background-position-y: -95px;
+}
+
+.Spades {
+    background-position-y: -142px;
+}
+
+.n2 {
+    background-position-x: -36px;
+}
+
+.n3 {
+    background-position-x: -71px;
+}
+
+.n4 {
+    background-position-x: -106px;
+}
+
+.n5 {
+    background-position-x: -141px;
+}
+
+.n6 {
+    background-position-x: -176px;
+}
+
+.n7 {
+    background-position-x: -211px;
+}
+
+.n8 {
+    background-position-x: -246px;
+}
+
+.n9 {
+    background-position-x: -281px;
+}
+
+.n10 {
+    background-position-x: -316px;
+}
+
+.Jack {
+    background-position-x: -351px;
+}
+
+.Queen {
+    background-position-x: -386px;
+}
+
+.King {
+    background-position-x: -421px;
+}
+
+.Ace {
+    background-position-x: -456px;
+}
