@@ -38,7 +38,9 @@
         <swiper-slide>
             <div class="row justify-content-sm-center">
                 <div class="card text-bg-light mx-auto" style="width: 20rem;">
-                    <img src="https://images.unsplash.com/photo-1529480544878-4e2cc822c103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="...">
+                    <!-- <img src="https://images.unsplash.com/photo-1529480544878-4e2cc822c103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="...">
+                     -->
+                     <div class="sprite-card beginCard"></div>
                     <div class="card-body">
                         <h5 class="card-title">Start 0/{{deckSize}}</h5>
                         <p class="card-text">It's Gains O'Clock. Lets go!</p>
@@ -59,6 +61,9 @@
                             ({{slideNumber}}/{{deckSize}})
                         </h5>
                         <p class="card-text text-left">
+                            <!-- <div class="sprite-card ace-spades"></div> -->
+                            <!-- <div class="{{card.card}}-{{card.suite}}">Card</div> -->
+                            <div class="sprite-card" :class="isNaN(card.card) ? card.card + ' ' + card.suite :  'n' + card.card + ' ' + card.suite"></div>
                             <ul>
                                 <li v-for="exercise in card.exercises">
                                     {{exercise}}
@@ -76,7 +81,8 @@
         <swiper-slide>
              <div class="row justify-content-sm-center">
                 <div class="card text-bg-light mx-auto" style="width: 20rem;">
-                    <img src="https://images.unsplash.com/photo-1529480384838-c1681c84aca5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                    <!-- <img src="https://images.unsplash.com/photo-1529480384838-c1681c84aca5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="..."> -->
+                    <div class="sprite-card endCard"></div>
                     <div class="card-body">
                         <h5 class="card-title">Workout Finished</h5>
                         <p class="card-text">Good Job</p>

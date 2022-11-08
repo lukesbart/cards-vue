@@ -41,6 +41,11 @@ onMounted(() => {
     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" @click="switchLightMode()" v-model="darkModeOn">
     <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
   </div>
+  <div class="col text-right">
+      <div class="text-right">
+        <p>Help</p>
+      </div>
+  </div>
   <div class="px-4 py-5 my-5">
     <div class="text-center">
       <h1>Cards Workout</h1>
