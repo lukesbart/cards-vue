@@ -28,3 +28,6 @@ coverage
 
 default files
 README-default.md
+
+# commit auto-prepare
+dist/prepare
