@@ -43,7 +43,7 @@
                      <div class="sprite-card beginCard"></div>
                     <div class="card-body">
                         <h5 class="card-title">Start 0/{{deckSize}}</h5>
-                        <p class="card-text">It's Gains O'Clock. Lets go!</p>
+                        <p class="card-text">Let's get started!</p>
                         <button class="btn-next btn btn-outline-dark" >Next</button>
                     </div>
                 </div>

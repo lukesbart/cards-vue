@@ -6,6 +6,8 @@
     background-image: url(8BitDeck.png);
 
     image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
     transform: scale(5);
     display:block;
     margin-right: 50%;
