@@ -1,29 +1,5 @@
-# swipe-build
+# Cards calisthenics workout app
+This is a calisthenics workout app based on using the standard 52 cards in a deck for exercise selection.
+Built with Vue.js and Bootstrap.
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Contents of the cathlisthenics workout app are based off of the cards program previously offered by [Jeff Nippard](https://jeffnippard.com/)
