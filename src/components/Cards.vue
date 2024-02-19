@@ -53,7 +53,7 @@
             <div class="row justify-content-sm-center">
                 <div class="card text-bg-light mx-auto" style="width: 20rem;">
                     <div class="card-body">
-                        <h5 class="card-title">{{card.card}} of {{card.suite}}
+                        <h5 class="card-title">{{card.description}}
                             <i v-if="card.suite === 'Clubs'" class="bi bi-suit-club-fill"></i>
                             <i v-if="card.suite === 'Spades'" class="bi bi-suit-spade-fill"></i>
                             <i v-if="card.suite === 'Diamonds'" class="bi bi-suit-diamond-fill"></i>
@@ -61,9 +61,8 @@
                             ({{slideNumber}}/{{deckSize}})
                         </h5>
                         <p class="card-text text-left">
-                            <!-- <div class="sprite-card ace-spades"></div> -->
-                            <!-- <div class="{{card.card}}-{{card.suite}}">Card</div> -->
-                            <div class="sprite-card" :class="isNaN(card.card) ? card.card + ' ' + card.suite :  'n' + card.card + ' ' + card.suite"></div>
+                            <div class="sprite-card" :class="isNaN(card.name) ? card.name + ' ' + card.suite :  'n' + card.name + ' ' + card.suite"></div>
+                            <p class="text-center">Options:</p>
                             <ul>
                                 <li v-for="exercise in card.exercises">
                                     {{exercise}}

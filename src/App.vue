@@ -49,7 +49,6 @@ onMounted(() => {
   <div class="px-4 py-5 my-5">
     <div class="text-center">
       <h1>Cards Workout</h1>
-      <p class="lead">The contents of this program are based off of <a href="https://www.jeffnippard.com/">Jeff Nippard's</a> Card Workout</p>
     </div>
   </div>
   <Cards/>
